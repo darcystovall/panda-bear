@@ -1,0 +1,134 @@
+body {
+  background-color: lightblue;
+}
+
+#head {
+  width: 300px;
+  height: 300px;
+  /*top:150px;*/
+  border-radius:50%;
+  /*margin:0 auto;*/
+  background-color: white;
+  /*position: relative;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#eyeright {
+  width:50px;
+  height:50px;
+  background-color:black;
+  border-radius:50%;
+  position:absolute;
+  top:100px;
+  right:50px;
+
+}
+
+#rightiris {
+  width:15px;
+  height:15px;
+  background-color:white;
+  border-radius:50%;
+  position:absolute;
+  top:15px;
+  right:15px;
+  animation: blinkeyes 5s infinite;
+}
+
+@keyframes blinkeyes {
+    0%, 100% {transform: scale(1, .05);}
+    5%, 95% {transform: scale(1, 1);}
+}
+
+#eyeleft{
+  width:50px;
+  height:50px;
+  background-color:black;
+  border-radius:50%;
+  position:absolute;
+  top:100px;
+  left:50px;
+}
+
+#leftiris {
+  width:15px;
+  height:15px;
+  background-color:white;
+  border-radius:50%;
+  position:absolute;
+  top:15px;
+  right:15px;
+}
+
+#leftear {
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-color:black;
+}
+
+#leftearris {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:#FFE9E6;
+  position:absolute;
+  top:20px;
+  left:20px;
+}
+
+#rightearris {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color:#FFE9E6;
+  position:absolute;
+  top:20px;
+  left:235px;
+}
+
+#rightear {
+  position:absolute;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  left:200px;
+  top:0px;
+  background-color:black;
+}
+
+#snout {
+  background-color:#FFE9E6;
+  height:45px;
+  width:80px;
+  border-radius:50%;
+  position:absolute;
+  top:155px;
+  right:110px;
+}
+
+#nose {
+  height:20px;
+  width: 30px;
+  background-color:#000000;
+  border-radius:50%;
+  position:absolute;
+  top:167px;
+  right:135px;
+}
+
+#gum {
+  height:100px;
+  width:100px;
+  background-color:pink;
+  border-radius: 50px;
+  position:absolute;
+  bottom:20px;
+  left:105px;
+  background: rgb(255,192,203);
+  background: radial-gradient(circle, rgba(255,192,203,1) 0%, rgba(217,131,146,1) 86%);
+}
